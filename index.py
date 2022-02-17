@@ -46,7 +46,7 @@ def updateBook(id=0, column='title'):
         if request.method == 'GET':
             return f"""
       <h1>Update Book</h1>
-      <p>if u are here, its because you wanna know how to update a book OR you were trying to find routes <hr>for updating a book completely, do PUT /updateBook/:id with the WHOLE book info in Form enctype<hr/>and for updating only one column, do PATCH /updateBook/:id/:column (which can be title, author or description) and a body of the value with the key 'value' for the column with any Form enctype.
+      <p>if u are here, its because you want to know how to update a book OR you were trying to find routes <hr>for updating a book completely, do PUT /updateBook/:id with the WHOLE book info in Form enctype<hr/>and for updating only one column, do PATCH /updateBook/:id/:column (which can be title, author or description) and a body of the value with the key 'value' for the column with any Form enctype.
 
       """
         # PUT
